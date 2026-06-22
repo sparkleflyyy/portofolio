@@ -249,7 +249,7 @@ export default function Home() {
                 <h3 className="project-title">Sistem Penyewaan PS</h3>
                 <div className="project-meta">
                   <span className="project-tag">Java</span>
-                  <span class="project-role-tag">Developer & Tester</span>
+                  <span className="project-role-tag">Developer & Tester</span>
                 </div>
               </div>
             </div>
@@ -286,12 +286,44 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            <div className="project-grid">
+              <div className="project-card">
+                <h4 className="project-card-title">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ width: '1.25rem', height: '1.25rem' }}>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                  </svg>
+                  Testing Scope
+                </h4>
+                <ul className="scope-list">
+                  <li>Validasi input transaksi penyewaan</li>
+                  <li>Perhitungan biaya sewa berdasarkan durasi</li>
+                  <li>Manajemen stok unit PS (ketersediaan)</li>
+                  <li>Penanganan pengembalian unit</li>
+                  <li>Edge case: input negatif, durasi nol</li>
+                </ul>
+              </div>
+              <div className="project-card">
+                <h4 className="project-card-title">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ width: '1.25rem', height: '1.25rem' }}>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                  </svg>
+                  Metode Testing
+                </h4>
+                <div className="method-tags">
+                  <span className="method-tag">Functional Testing</span>
+                  <span className="method-tag">Unit Testing</span>
+                  <span className="method-tag">Boundary Value Analysis</span>
+                  <span className="method-tag">Negative Testing</span>
+                </div>
+              </div>
+            </div>
           </article>
 
           {/* ===== PROJECT 3: Bank Sampah Digital ===== */}
           <article className="project-block fade-up">
             <div className="project-header">
-              <span class="project-number">03</span>
+              <span className="project-number">03</span>
               <div className="project-title-group">
                 <h3 className="project-title">Bank Sampah Digital</h3>
                 <div className="project-meta">
